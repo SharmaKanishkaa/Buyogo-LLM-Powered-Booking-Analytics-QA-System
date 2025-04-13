@@ -11,9 +11,9 @@ import datetime
 # Initialize and cache the analytics and RAG systems
 @st.cache_resource
 def initialize_systems():
-    pipeline = HotelBookingPipeline("C:/Users/Kanishka/Documents/Buyogo/hotel_bookings.csv")
-    analytics = pipeline.run_pipeline()  # Run full pipeline for analytics
-    rag = HotelBookingRAG(analytics)     # Initialize RAG system with analytics
+    pipeline = HotelBookingPipeline("hotel_bookings.csv")
+    analytics = pipeline.run_pipeline()  
+    rag = HotelBookingRAG(analytics)     
     return pipeline, rag
 
 # Load the systems
