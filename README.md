@@ -84,6 +84,7 @@ The FastAPI backend exposes the following endpoints:
 - **Description**: Accepts a natural language query and returns a generated response with relevant data insights.
 - **Example Request**:
   ```bash
+  http://127.0.0.1:8000/visualizations/monthly_adr
   curl -X POST "http://localhost:8000/ask" -H "Content-Type: application/json" -d '{"query": "Which months had the highest ADR?"}'
   ```
 - **Example Response**:
