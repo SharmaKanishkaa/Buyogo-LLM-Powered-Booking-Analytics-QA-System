@@ -44,7 +44,7 @@ class QuestionRequest(BaseModel):
     include_sources: bool = False
 
 # Initialize systems
-DATA_PATH = "C:/Users/Kanishka/Documents/Buyogo/hotel_bookings.csv"
+DATA_PATH = "hotel_bookings.csv"
 pipeline = HotelBookingPipeline(DATA_PATH)
 analytics_data = pipeline.run_pipeline()
 rag_system = HotelBookingRAG(analytics_data)
