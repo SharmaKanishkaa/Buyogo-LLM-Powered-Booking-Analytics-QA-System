@@ -1,11 +1,11 @@
-# Core FastAPI dependencies
+# Core FastAPI dependencies 
 fastapi==0.110.0
 uvicorn[standard]==0.27.1
 
 # ORM and database
 sqlalchemy==2.0.25
-pydantic==2.5.3
-pydantic-settings==2.1.0
+pydantic==1.10.13
+# pydantic-settings==2.1.0  # commented due to v2 dependency
 
 # Optional: PostgreSQL support (comment out if using SQLite)
 psycopg2-binary==2.9.9
@@ -23,7 +23,8 @@ scikit-learn==1.4.1.post1
 
 # RAG, embeddings, and vector DB
 langchain==0.1.14
-faiss-cpu==1.8.0  # or use 'faiss-gpu' if you need GPU support
+langchain-community==0.0.29
+faiss-cpu==1.8.0
 tiktoken==0.6.0
 
 # Optional LLM integrations
@@ -33,7 +34,7 @@ openai==1.16.2
 python-multipart==0.0.9
 aiofiles==23.2.1
 
-# Web client requests (optional)
+# Web client requests
 requests==2.31.0
 
 # For image serving
@@ -42,6 +43,6 @@ python-dotenv==1.0.1
 # CORS handling
 starlette==0.36.3
 
-
-# Optional: Jupyter for notebook-based dev
+# Dev / App
 notebook
+streamlit
