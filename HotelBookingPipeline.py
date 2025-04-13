@@ -9,7 +9,7 @@ import os
 class HotelBookingPipeline:
     def __init__(self, data_path: str):
         """Initialize with data path and constants"""
-        self.raw_data = pd.read_csv("C:/Users/Kanishka/Documents/Buyogo/hotel_bookings.csv")
+        self.raw_data = pd.read_csv("hotel_bookings.csv")
         self.processed_data = None
         self.analytics = {}
         
