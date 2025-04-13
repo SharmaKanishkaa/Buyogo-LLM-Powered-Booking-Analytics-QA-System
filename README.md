@@ -75,7 +75,7 @@ The FastAPI backend exposes the following endpoints:
 - **Description**: Retrieves analytics data (e.g., trends, cancellations, ADR) in a structured format.
 - **Example Request**: 
   ```bash
-  curl http://localhost:8000/analytics
+  http://localhost:8000/analytics
   ```
 
 ### 2. **/ask**
