@@ -1,21 +1,32 @@
+# FastAPI and ASGI server
 fastapi==0.110.0
-uvicorn[standard]==0.27.1
-sqlalchemy==2.0.25
-pydantic==1.10.15  
-pydantic-settings==2.0.3  
-psycopg2-binary==2.9.9
-pandas==2.2.1
-numpy==1.26.4
-matplotlib==3.8.3
-seaborn==0.13.2
-scikit-learn==1.4.1.post1
-langchain==0.1.14
-faiss-cpu==1.8.0
-tiktoken==0.6.0
-openai==1.16.2
+uvicorn[standard]==0.29.0
+
+# Database
+SQLAlchemy==2.0.29
+
+# Pydantic for data models
+pydantic==2.6.4
+pydantic-settings==2.2.1
+
+# CORS support
 python-multipart==0.0.9
 aiofiles==23.2.1
 requests==2.31.0
-python-dotenv==1.0.1
-starlette==0.36.3
-notebook
+
+# Visualization (used by pipeline, optional if matplotlib/seaborn used)
+matplotlib==3.8.3
+seaborn==0.13.2
+
+# Pandas and Numpy for data handling
+pandas==2.2.2
+numpy==1.26.4
+
+# Streamlit for frontend (if you're integrating)
+streamlit==1.33.0
+
+# Optional: tqdm for progress bars (used in pipeline)
+tqdm==4.66.2
+
+# Optional: If you use scikit-learn in pipeline/RAG
+scikit-learn==1.4.2
