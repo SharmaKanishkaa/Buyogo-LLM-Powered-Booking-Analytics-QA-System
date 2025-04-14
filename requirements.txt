@@ -1,48 +1,47 @@
 # FastAPI and ASGI server
-fastapi==0.110.0
-uvicorn[standard]==0.29.0
+fastapi
+uvicorn[standard]
 
 # Database
-SQLAlchemy==2.0.29
+SQLAlchemy
 
 # Pydantic for data models
-pydantic==2.6.4
-pydantic-settings==2.2.1
+pydantic
+pydantic-settings
 
 # CORS support
-python-multipart==0.0.9
-aiofiles==23.2.1
-requests==2.31.0
+python-multipart
+aiofiles
+requests
 
 # Visualization (used by pipeline, optional if matplotlib/seaborn used)
-matplotlib==3.8.3
-seaborn==0.13.2
+matplotlib
+seaborn
 
 # Pandas and Numpy for data handling
-pandas==2.2.2
-numpy==1.26.4
+pandas
+numpy
 
 # Streamlit for frontend (if you're integrating)
-streamlit==1.33.0
+streamlit
 
 # Optional: tqdm for progress bars (used in pipeline)
-tqdm==4.66.2
+tqdm
 
 # Optional: If you use scikit-learn in pipeline/RAG
-scikit-learn==1.4.2
-# Add LangChain and community modules
-langchain==0.1.16
-langchain-community==0.0.31
-langchain-core==0.1.42 
+scikit-learn
 
+# Add LangChain and community modules
+langchain
+langchain-community
+langchain-core
 
 # Vector store dependencies (if using FAISS)
-faiss-cpu==1.7.4
+faiss-cpu
 
 # If you use Hugging Face models
-transformers==4.40.1
-sentence-transformers==2.5.1
+transformers
+sentence-transformers
 
 # If your RAG system uses chromadb
-chromadb==0.4.24
-
+chromadb
