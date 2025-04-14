@@ -1,4 +1,3 @@
-pip install langchain-community==0.0.31
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.schema import Document
