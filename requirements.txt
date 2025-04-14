@@ -33,7 +33,8 @@ scikit-learn==1.4.2
 # Add LangChain and community modules
 langchain==0.1.16
 langchain-community==0.0.31
-langchain-core==0.1.42
+langchain-core==0.1.42 
+
 
 # Vector store dependencies (if using FAISS)
 faiss-cpu==1.7.4
