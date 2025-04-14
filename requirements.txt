@@ -30,3 +30,18 @@ tqdm==4.66.2
 
 # Optional: If you use scikit-learn in pipeline/RAG
 scikit-learn==1.4.2
+# Add LangChain and community modules
+langchain==0.1.16
+langchain-community==0.0.31
+langchain-core==0.1.42
+
+# Vector store dependencies (if using FAISS)
+faiss-cpu==1.7.4
+
+# If you use Hugging Face models
+transformers==4.40.1
+sentence-transformers==2.5.1
+
+# If your RAG system uses chromadb
+chromadb==0.4.24
+
