@@ -68,6 +68,7 @@ This will open a web interface where you can interact with the system and ask qu
 ## API Endpoints
 
 Initially run: uvicorn main:app --reload --port 8000
+
 The FastAPI backend exposes the following endpoints:
 
 ### 1. **/analytics**
