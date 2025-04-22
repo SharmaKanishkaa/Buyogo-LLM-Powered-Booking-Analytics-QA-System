@@ -36,7 +36,7 @@ To run this project locally, follow the steps below:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Buyogo-LLM-Powered-Booking-Analytics-QA-System.git
+git clone https://github.com/SharmaKanishkaa/Buyogo-LLM-Powered-Booking-Analytics-QA-System.git
 cd Buyogo-LLM-Powered-Booking-Analytics-QA-System
 ```
 
